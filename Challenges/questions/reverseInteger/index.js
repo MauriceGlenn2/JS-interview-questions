@@ -23,7 +23,7 @@
 
 const reverseInteger = (int) => {
   const reversed = int.toString().split("").reverse().join("");
- return parseInt(reversed) * Math.sign(int); 
+ return parseInt(reversed) * Math.sign(int);   //math.sign turn numbers in neg or pos
 };
 
 module.exports = reverseInteger;
